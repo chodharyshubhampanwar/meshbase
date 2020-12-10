@@ -1,8 +1,9 @@
 # Awesome Startup Deals
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A directory of high quality startup deals, with terms, conditions and source
+A directory of high quality startup deals, with terms, conditions and source.
+
+This list will be updated Daily @ 00:00 GMT.
 
 | Company | Deal | Conditions |
 | ----------- | ----------- | ----------- |
