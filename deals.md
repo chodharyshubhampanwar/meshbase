@@ -21,3 +21,12 @@ This list will be Updated Daily @ 00;00 GMT.
 | [Amazon AWS](https://www.startups.com/products/benefits-browse#benefits) | $5,000 in AWS Credit | $29/month to access all Startups.com offers and products. Yearly and life-time plans available |
 | [Chargebee](https://www.startups.com/products/benefits-browse#benefits) | Free for up to 2 Years | $29/month to access all Startups.com offers and products. Yearly and life-time plans available |
 | [CrazyEgg](https://startup.deals/) | 3 Months Free | $29 one-time to access all Startup Deals discounts |
+| [Crisp](https://startup.deals/) | Lifetime 30% off + 1 Month free on unlimited plan. | $29 one-time to access all Startup Deals discounts |
+| [Freshchat](https://startup.deals/) | 35% off on the most popular (sales+support) plan | $29 one-time to access all Startup Deals discounts |
+| [Google Ads](https://stripe.com/en-de/corporate-card) | $150 in credit | Free for Stripe Corporate Credit card users |
+| [Google Cloud](https://www.startups.com/products/benefits-browse#benefits) | $300 in Credits | $29/month to access all Startups.com offers and products. Yearly and life-time plans available |
+| [Hootsuite](https://www.producthunt.com/founder-club) | 50% off Professional & Team plans | $720/year for all Product Hunt deals |
+| [Hotjar](https://www.joinsecret.com/offers) | 6 months free on Plus plan | First deal free, then 99€/year or invite friends |
+| [Intercom](https://www.intercom.com/early-stage) | All of Intercom’s Pro products for a flat rate of $49/mo for up to one year | Free |
+| [LambdaTest](https://startup.deals/) | Get 20% discount on all annual plans | $29 one-time to access all Startup Deals discounts |
+| [Salesforce](https://brex.com/rewards/) | 25% subscription discount, up to $375 | Free for Brex customers |
