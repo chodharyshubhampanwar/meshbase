@@ -80,6 +80,119 @@
     <div class="right">
         <h2>Posted 3 days ago</h2>
     </div>
+        
+        
+
+<link rel="stylesheet"
+href="https://emailoctopus.com/bundles/emailoctopuslist/css/1.6/form.css"
+>
+<div class="emailoctopus-form-wrapper"
+:class="'emailoctopus-form-' + $store.state.settings.theme + ' ' + $store.state.settings.font.size"
+:style="{
+           'font-family': $store.state.settings.font.fontFace || 'Arial, Helvetica Neue, Helvetica, sans-serif',
+           'color': $store.state.settings.font.color || '#1a1a1a',
+       }"
+>
+<h2 class="emailoctopus-heading"
+v-if="$store.state.title.text"
+>
+{{ $store.state.title.text }}
+</h2>
+<p class="emailoctopus-success-message">
+</p>
+<p class="emailoctopus-error-message">
+</p>
+<form :action="formEndpoint"
+  method="post"
+  @submit.prevent
+  class="emailoctopus-form"
+  :data-message-success="$store.state.settings.messages.successMessage"
+  :data-message-missing-email-address="$store.state.settings.messages.missingEmailAddressMessage"
+  :data-message-invalid-email-address="$store.state.settings.messages.invalidEmailAddressMessage"
+  :data-message-bot-submission-error="$store.state.settings.messages.botSubmissionErrorMessage"
+  :data-message-consent-required="$store.state.settings.messages.consentRequiredMessage"
+  :data-message-invalid-parameters-error="$store.state.settings.messages.invalidParametersErrorMessage"
+  :data-message-unknown-error="$store.state.settings.messages.unknownErrorMessage"
+  data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
+>
+<template v-if="field.settings.inputType !== 'hidden'">
+<div class="emailoctopus-form-row">
+  <label :for="'field_' + field.columnIndex">
+    {{ field.settings.formLabel }}
+  </label>
+  <input :id="'field_' + field.columnIndex"
+         :name="'field_' + field.columnIndex"
+         :type="field.settings.inputType"
+         :placeholder="field.settings.placeholder"
+         :required="field.settings.required"
+  >
+</div>
+<overlay :field="field"
+         :dragging="dragging"
+         @remove-field="removeField(field)"
+>
+</overlay>
+</template>
+<template v-else>
+<span class="editor-chrome"
+      style="padding-left: 15px;padding-top: 12px;opacity: 0.6;"
+>
+  Hidden Field - {{ field.label }}
+</span>
+<input :name="'field_' + field.columnIndex"
+       type="hidden"
+       :required="field.settings.required"
+       :value="field.settings.value"
+>
+<overlay :field="field"
+         :dragging="dragging"
+         @remove-field="removeField(field)"
+>
+</overlay>
+</template>
+
+</div>
+<div class="emailoctopus-form-row-hp"
+   aria-hidden="true"
+>
+<input type="text"
+       name="hpc4b27b6e-eb38-11e9-be00-06b4694bee2a"
+       tabindex="-1"
+       autocomplete="nope"
+>
+</div>
+<div class="emailoctopus-form-row-subscribe">
+<input type="hidden"
+       name="successRedirectUrl"
+       :value="$store.state.settings.redirectOnSubmit.url"
+>
+<button type="submit"
+        :style="{
+                          'background-color': $store.state.button.colour.background,
+                          'color': $store.state.button.colour.text,
+                          'font-family': $store.state.settings.font.fontFace || 'inherit',
+                      }"
+        @click.prevent
+>
+  {{ $store.state.button.text }}
+</button>
+</div>
+</form>
+<div class="emailoctopus-rewards"
+ v-if="$store.state.settings.rewardsLink.enabled"
+>
+
+<a :href="$store.state.assets.rewardsUrl"
+ target="_blank"
+>
+
+</a>
+</div>
+</div>
+<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js">
+</script>
+<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js">
+</script>
 
 </div>
 </div>
