@@ -1,0 +1,194 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 4em;
+    background-color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+
+}
+
+.logo {
+    padding-left: 0.5rem;
+}
+
+.end {
+    display: flex;
+    list-style: none;
+    padding-right: 0.5rem;
+    padding-left: 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all .2s;
+}
+
+a img {
+     position: relative;
+     border-radius: 100%;
+     max-width: 50px;
+     max-height: 50px;
+     margin: 10px 0 0px 0px;
+
+ }
+
+
+
+.item {
+    margin-right: 1.5rem;
+
+ }
+
+ .container {
+     max-width: 1200px;
+     margin-right: auto;
+     margin-left: auto;
+     max-height: 50vh;
+ }
+
+ .jobs {
+    display: flex;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+    border-bottom: 1px solid #e4e7f0;
+    margin-top: 3rem;
+    align-items: top;
+    position: relative;
+ }
+
+
+
+ .navbar-btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: .9rem 1rem;
+    background-color: #0d51ff;
+    border-radius: 50px;
+    border: none;
+
+ }
+
+ .companylogo {
+    border-radius: 25%;
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 0;
+
+ }
+
+
+
+
+
+ .jobdescription {
+        color: black;
+        display: flex;
+align-items: center;
+position: relative;
+min-width: 0;
+flex-direction: column;
+    padding-left: 1rem;
+  align-items: flex-start;
+
+ }
+
+.tag{
+    margin-left: auto;
+}
+
+.tagchild {
+    background-color: #f2f5fa;
+    display: inline-block;
+    color: #1b51cf;
+    padding: .5rem .6rem;
+    border-radius: .3rem;
+    margin-bottom: 3px;
+    font-size: 12px;
+
+}
+
+.location {
+    margin-left: auto;
+    margin-top: 0;
+
+}
+
+.locationchild {
+    color: #0d51ff;
+
+}
+
+
+h2 {
+    margin-top: auto;
+    font-size: 1em;
+}
+
+h3 {
+    margin-top: auto;
+    font-size: .8em;
+}
+
+.floatright {
+    float: right;
+    margin-top: 0;
+    border: solid 1px black;
+
+
+}
+
+.floatleft {
+    display: flex;
+flex-direction: column;
+float: left;
+
+
+}
+
+.tags {
+display: flex;
+flex-direction: column;
+max-width: 400px;
+padding: 1rem;
+
+}
+
+.article {
+
+max-width: 300px;
+padding: 1rem;
+border-bottom: solid 1px black;
+margin: 10px;
+
+}
+
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
