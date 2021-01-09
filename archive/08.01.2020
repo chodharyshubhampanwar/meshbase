@@ -249,13 +249,6 @@ Examples of DALL-E's output are available in the article.</span></span></p>
 			</tbody>
 		</table>
 
-		<p style="text-align: center;"><a href="{{UnsubscribeURL}}">Unsubscribe</a></p>
-
-		<p style="text-align: center;">{{SenderInfo}}</p>
-
-		<p style="text-align: center;"><a href="{{RewardsURL}}">Powered by EmailOctopus</a></p>
-		<div style="text-align: center;">
-			<br>
-		</div>
+		
 	</body>
 </html>
