@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 a {
@@ -133,9 +133,10 @@ a {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: 2rem;
+  line-height: 60px;
 }
 
 h3 {
@@ -146,12 +147,15 @@ h2 {
 }
 
 .hero-intro {
+  display: flex;
+  max-width: 85%;
   font-size: 18px;
   word-wrap: break-word;
-  line-height: 1.4em;
-  font-size: 24px;
+  line-height: 32px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 2rem;
+  color: rgb(107, 114, 128);
 }
 
 .floatright {
@@ -190,9 +194,8 @@ h2 {
 
 .hero-text-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-bottom: auto;
+  justify-content: flex-start;
+  align-items: center;
   flex: 1;
 }
 .hero-text {
