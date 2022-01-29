@@ -5,6 +5,7 @@
 
 body {
   font-family: "DM Sans", sans-serif;
+  background-color: #f6f6ef;
 }
 
 a {
@@ -17,7 +18,6 @@ a {
   justify-content: space-between;
   width: 100%;
   height: 4em;
-  background-color: #fff;
   padding: 1.5rem 1rem;
   margin: 0 auto;
   max-width: 75%;
@@ -139,13 +139,6 @@ h1 {
   line-height: 60px;
 }
 
-h3 {
-  margin-top: auto;
-}
-h2 {
-  margin-top: auto;
-}
-
 .hero-intro {
   display: flex;
   max-width: 85%;
@@ -189,7 +182,7 @@ h2 {
   max-width: 75%;
   justify-content: center;
   align-items: center;
-  margin: 6rem auto;
+  margin: 4rem auto;
 }
 
 .hero-text-wrapper {
@@ -225,4 +218,43 @@ h2 {
 }
 .hero-cover {
   display: flex;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 85%;
+  flex-direction: column;
+}
+.features-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-wrapper {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-self: center;
+  margin: 4rem auto;
+}
+.features-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc29b;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
