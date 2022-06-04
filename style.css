@@ -142,9 +142,17 @@ h1 {
   line-height: 60px;
 }
 
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 60px;
+}
+
 .hero-intro {
-  display: flex;
-  max-width: 85%;
+
+display: flex;
   font-size: 18px;
   word-wrap: break-word;
   line-height: 32px;
@@ -152,6 +160,8 @@ h1 {
   font-weight: 400;
   margin-bottom: 2rem;
   color: rgb(107, 114, 128);
+  gap:1rem;
+
 }
 
 .floatright {
@@ -191,14 +201,11 @@ h1 {
 .hero-text-wrapper {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
   flex: 1;
-}
-
-.hero-text {
-  display: flex;
   flex-direction: column;
 }
+
 
 .hero-button {
   max-width: 50%;
@@ -223,7 +230,7 @@ h1 {
 
 .hero-cover {
   display: flex;
-
+  width: 100%;
 }
 
 .features {
@@ -297,4 +304,22 @@ footer {
   flex: 1;
   gap: 1rem;
   text-align: center;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.tick:after {
+  display: flex;
+content: url('./Images/checkmark.svg'); 
+
+
 }
