@@ -5,9 +5,11 @@
 }
 
 
-body {
+html, body {
   font-family: "DM Sans", sans-serif;
   background-color: #f6f6ef;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
